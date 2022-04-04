@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<style>
+    body{
+        background-color: gray;
+        color: white;
+    }
+    .layout
+    {
+        width: 400px;
+        background-color: black;
+    }
+    h1{
+            text-shadow: 2px 2px black;
+            text-align: center;
+            font-size: 40px;
+            color: red;
+            font-family:serif;
+        }
+</style>
+<body>
+
+    
+
+    <center>
+
+        <h1>Contact us</h1>
+
+
+        <div class="layout">
+            <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/First.html">
+    
+                
+        <table width="100%" border="0" >
+            <tr>
+                <td><p> <label>Name <input type="text" name="Customer name" required></label>  </p></td>
+                
+                <td>  <p><label>Email <input type="email" name="Email Address" required></label></p></td>
+    
+            </tr>
+    
+            <tr>
+                <td><p><label>Address <textarea name="comments" maxlength="500"></textarea></label></p><p></td>
+                
+                <td>  <p><label>Phone <input type="tel" name="Phone Number" required></label></p>  </td>
+    
+            </tr>
+
+            <tr>
+                <td> <p><label>Comment <textarea name="comments" maxlength="500"></textarea></label></p><p></p></td>
+            </tr>
+
+    
+        </table>
+    
+    </form>
+
+
+    <button onclick="alert(submit())">Submit</button> <br><br><br>
+
+        </div>
+    
+
+    </center>
+    
+    
+
+    <script>
+        function submit() {
+          alert("Submitted successfully...!!!");
+        }
+        </script>
+
+</body>
+</html>
